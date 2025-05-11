@@ -6,7 +6,7 @@ conexion = mysql.connector.connect(
     host="mysql_c", 
     user="root",
     password="utec",
-    database="basededatos"
+    database="bd_api_employees"
 )
 
 consulta = "SELECT * FROM productos;"
