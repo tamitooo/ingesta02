@@ -3,7 +3,7 @@ import pandas as pd
 import boto3
 
 conexion = mysql.connector.connect(
-    host="mysql_c", 
+    host="18.215.162.117", 
     user="root",
     password="utec",
     database="bd_api_employees"
