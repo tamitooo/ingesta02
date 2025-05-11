@@ -4,7 +4,7 @@ import boto3
 
 try:
     conexion = mysql.connector.connect(
-        host="18.215.162.117", 
+        host="172.31.20.117", 
         user="root",
         password="utec",
         database="bd_api_employees"
